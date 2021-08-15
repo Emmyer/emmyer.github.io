@@ -1,7 +1,8 @@
 .header {
+    display: flex;
     flex-direction: column;
-    width: max-content;
-    height: 200px;
+    width: 100%;
+    overflow: auto;
     background-color: #aaa;
 }
 .h1 {
@@ -12,6 +13,10 @@
     flex-flow: row wrap;
     width: 200px;
     margin: 5px;
-    border: 2px;
+    border: 2px #282828;
     padding: 10px;
+}
+img.box1 {
+    margin: 0px;
+    display: flex;
 }
