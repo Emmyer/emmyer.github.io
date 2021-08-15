@@ -11,4 +11,7 @@ header {
 .box1 {
     flex-flow: row wrap;
     width: 200px;
+    margin: 5px;
+    border: 2px;
+    padding: 10px;
 }
