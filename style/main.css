@@ -1,0 +1,14 @@
+header {
+    flex-direction: column;
+    width: max-content;
+    height: 200px;
+    background-color: #aaa;
+}
+.h1 {
+    font-style: 微软雅黑;
+    font-size: 14px;
+}
+.box1 {
+    flex-flow: row wrap;
+    width: 200px;
+}
