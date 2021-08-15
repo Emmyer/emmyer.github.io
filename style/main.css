@@ -10,13 +10,14 @@
     font-size: 14px;
 }
 .box1 {
-    flex-flow: row wrap;
-    width: 200px;
+    display: flex;
+    justify-content: start;
+    flex-flow: column wrap;
+    width: 300px;
     margin: 5px;
     border: 2px #282828;
-    padding: 10px;
+    padding-top: 20px;
 }
 img.box1 {
-    margin: 0px;
-    display: flex;
+    width: 260px;
 }
