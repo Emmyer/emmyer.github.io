@@ -8,13 +8,15 @@ body {
 h2 {
     width: 100%;
     height: auto;
-    font: 2em "微软雅黑";
+    font: 2em  "微软雅黑";
     padding: 8% 0;
     text-align: center;
     border-radius:  0 0 20px 20px;
     background: rgb(236, 233, 233);
     margin: 0em;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 1px 10px 17px -6px rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 5px #333;
+    color:#ddd;
 }
 .header {
     height: 180px;
