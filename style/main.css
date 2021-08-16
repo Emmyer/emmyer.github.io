@@ -13,16 +13,19 @@ body {
 }
 .box {
     width: 90%;
+    max-width: 984px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 }
+
 .box1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    margin: 20px;
+    width: calc(45% - 0px);
+    margin: 0px;
     padding-top: 20px;
 }
 .img1 {
