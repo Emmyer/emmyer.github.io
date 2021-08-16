@@ -29,7 +29,7 @@ h2 {
     padding: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2000px) {
     .box {
         width: 80%;
         column-count: 3;
@@ -43,9 +43,9 @@ h2 {
         justify-content: center;
         padding: 20px 0;
 }}
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1668px) {
     .box {
-        width: 80%;
+        width: 85%;
         column-count: 2;
         padding: 10px 5px;
     }
@@ -57,9 +57,9 @@ h2 {
         justify-content: center;
         padding: 20px 0;
 }}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .box {
-        width: 80%;
+        width: 90%;
         column-count: 1;
         padding: 10px 5px;
     }
