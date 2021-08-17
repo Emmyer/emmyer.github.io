@@ -1,5 +1,5 @@
 body {
-    background: #edfaed;
+    background: #FAFFF0;
 }
 .flexbody {
     display: flex;
@@ -40,7 +40,7 @@ body {
     background-attachment: scroll;
     background-position: 30% 20%; 
     text-shadow: 1px 1px 5px #333;
-    color:rgb(54, 99, 53);
+    color:#32CD32;
 }
 .header h3{
     text-align: center;
