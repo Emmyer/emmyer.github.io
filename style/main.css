@@ -28,7 +28,7 @@ body {
 .box1 h2 {
     width: 100%;
     height: auto;
-    font: 2vw  "FangSong_GB2312";
+    font: 0.8em  "FangSong_GB2312";
     padding: 8% 0;
     text-align: center;
     border-radius:  0 0 20px 20px;
@@ -81,5 +81,9 @@ body {
     .box {
         width: 96vw;
         column-count: 1;
+    }
+    .box1 h2{
+        font-size:24px;
+    }
     
 }}
