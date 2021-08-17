@@ -8,15 +8,15 @@ body {
 h2 {
     width: 100%;
     height: auto;
-    font: 2em  "微软雅黑";
+    font: 2em  "FangSong_GB2312";
     padding: 8% 0;
     text-align: center;
     border-radius:  0 0 20px 20px;
-    background: rgb(236, 233, 233);
+    background: #111;
     margin: 0em;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 1px 10px 17px -6px rgba(0, 0, 0, 0.19);
     text-shadow: 1px 1px 5px #333;
-    color:#ddd;
+    color:#a1a1a6;
 }
 .header {
     height: 180px;
@@ -40,6 +40,7 @@ h2 {
         flex-direction: column;
         justify-content: center;
         padding: 20px 0;
+        margin: 0 auto;
 }}
 @media screen and (max-width: 1668px) {
     .box {
@@ -54,6 +55,7 @@ h2 {
         flex-direction: column;
         justify-content: center;
         padding: 20px 0;
+        margin: 0 auto;
 }}
 @media screen and (max-width: 1200px) {
     .box {
@@ -69,6 +71,7 @@ h2 {
         flex-direction: column;
         justify-content: center;
         padding: 20px 0;
+        margin: 0 auto;
 }}
 .box1 {
     width: 90%;
@@ -77,6 +80,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     padding: 20px 0;
+    margin: 0 auto;
 } 
 .img1 {
     width: 100%;
