@@ -39,8 +39,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 30% 20%; 
-    text-shadow: 1px 1px 5px #333;
-    color:#BDFCC9;
+    /*text-shadow: 1px 1px 5px #333;*/
+    color:#7FFF00;
 }
 .header h3{
     text-align: center;
