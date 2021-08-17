@@ -1,11 +1,19 @@
 body {
     background: #f5f6f5;
 }
-.flex {
+.flexbody {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+}
+.flexbox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 0 auto;
 }
 .header p{
     width: 100%;
@@ -23,13 +31,15 @@ body {
     border-radius:  0 0 20px 20px;
     background: rgba(17, 17, 17, 0.8);
     margin: 0em;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 11px 2px rgba(0, 0, 0, 0.61);
+    background-image: linear-gradient(141deg,#9fb8ad 0%,#1fc8db 51%,#2cb5e8 75%);
+    box-shadow: 0 8px 10px 0 rgba(122, 122, 122, 0.2), 0 6px 11px 2px rgba(94, 94, 94, 0.61);
     text-shadow: 1px 1px 5px #333;
-    color:#a1a1a6;
+    color:#eee;
 }
 .header h3{
     text-align: center;
-    font: 0.7em sans-serif;
+    font: 1.2em "FangSong_GB2312";
+    color: #666;
 }
 .header {
     width: 100%;
@@ -45,7 +55,6 @@ body {
     column-count: 4;
     column-gap: 0px;
 }
-
 @media screen and (max-width: 1800px) {
     .box {
         width: 66%;
@@ -54,12 +63,6 @@ body {
     }
     .box1 {
         width: 90%;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px 0;
-        margin: 0 auto;
 }}
 @media screen and (max-width: 1468px) {
     .box {
@@ -69,36 +72,19 @@ body {
     }
     .box1 {
         width: 45%;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px 0;
         margin: 0 auto;
 }}
 @media screen and (max-width: 1000px) {
     .box {
         width: 90%;
         column-count: 1;
-        column-gap: 0px;
         padding: 10px 5px;
     }
     .box1 {
         width: 90%;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px 0;
-        margin: 0 auto;
 }}
 .box1 {
     width: 90%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px 0;
     margin: 0 auto;
 } 
 .img1 {
